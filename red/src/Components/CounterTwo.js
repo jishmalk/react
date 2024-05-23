@@ -1,7 +1,7 @@
 import React, {useReducer} from 'react'
 
 const initialstate = {
-    firstCounter: 1000,
+    firstCounter: 10,
     secondCounter: 100
 }
 const reducer = (state, action) =>{
@@ -29,7 +29,7 @@ function CounterTwo(){
     return (
         <div>
             <div>first Counter: {count.firstCounter}</div>
-            <div>second Counter: {count.secondCounter}</div>
+            
             <button onClick={()=>dispatch({type:'increment', value: 1 })}>
                 increment
             </button>
@@ -39,18 +39,18 @@ function CounterTwo(){
             <button onClick={()=>dispatch({type:'increment', value: 5 })}>
                 increment 5
             </button>
-            <button onClick={()=>dispatch({type:'decrement', value: 5008 })}>
+            <button onClick={()=>dispatch({type:'decrement', value: 5 })}>
                 decrement 5
             </button>
 
         
         <div>
-            <button onClick={()=>dispatch({type:'increment2', value: 1 })}>
+            {/* <button onClick={()=>dispatch({type:'increment2', value: 1 })}>
                 increment Counter 2
             </button>
             <button onClick={()=>dispatch({type:'decrement2', value: 1})}>
                 decrement Counter 2
-            </button>
+            </button> */}
         </div>    
             <button onClick={()=>dispatch({type:'Reset'})}>Reset</button>
         </div>

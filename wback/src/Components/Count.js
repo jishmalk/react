@@ -29,3 +29,6 @@ const [Count,setCount]= useState()
     )
 }
 export default Counter;
+
+//syntax
+//const [state, setState] = useState(initialState);

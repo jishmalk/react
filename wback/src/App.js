@@ -9,6 +9,15 @@ import Filter from './Components/Filter';
 import Map from './Components/Map'
 import Reduce from './Components/Reduce';
 import Foreach from './Components/Foreach';
+import Usememo from './Components/Usememo';
+import Usecallback from './Components/Usecallback';
+import Usereducer from './Components/Usereducer';
+import Parentmemo from './Components/Parentmemo';
+import Table from './Components/Table';
+
+
+
+
 
 export const Context = createContext();
 export const ChannelContext = createContext();
@@ -17,19 +26,26 @@ function App() {
 
   return (
     <div className="App">
+       {/* <Table  /> */}
        {/* <Fetch  />
        <Counter  />
        <Useref  />
        <Filter  />
+       <Usereducer  />
        <Map   />
-       <Reduce  /> */}
-       <Foreach  />
+       <Reduce  />
+       <Usememo  />
+       <Usecallback  />
+  <Parentmemo />  */}
+              
+       {/* <Foreach  />
        <Context.Provider value={"jishmal"}>
         <ChannelContext.Provider value={"kanichadi"}>
           <ComponentA  />
         </ChannelContext.Provider>
-       </Context.Provider>
-
+       </Context.Provider>  */}
+       <Usereducer  />
+       <Table />
 
     </div>
   );

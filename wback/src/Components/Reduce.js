@@ -8,3 +8,5 @@ function Reduce(){
     console.log(arr1);
 }
 export default Reduce;
+
+

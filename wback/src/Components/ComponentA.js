@@ -1,11 +1,15 @@
-// import React, { useContext } from 'react'
+
+import { useContext } from 'react';
 import { Context,ChannelContext } from '../App'
 
 const ComponentA = () => {
-    // const user = useContext(Context)
-    // const Channel = useContext(ChannelContext)
+    const user = useContext(Context)
+    const Channel = useContext(ChannelContext)
   return (
     <div>
+        <h1> 
+            {user} {Channel}
+        </h1>
         <Context.Consumer>
             {(user)=>{
                 return(

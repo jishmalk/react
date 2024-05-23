@@ -10,6 +10,7 @@ const ComponentC = ()=>{
             <h1>
                 {user} dvfvfv {Channel}
             </h1>
+            
 
             <Context.Consumer>
                 {(User) => {
