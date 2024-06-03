@@ -2,7 +2,7 @@ import React from "react";
 
 function Foreach(){
     let ar=[1,2,3,4,5]
-    ar.forEach((value,index)=>(console.log(index+value)))
+    ar.forEach((value,index)=>(document.write(index+value)))
 
     return(
         <div>
@@ -10,21 +10,6 @@ function Foreach(){
         </div>
     )
 }
+
 export default Foreach;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

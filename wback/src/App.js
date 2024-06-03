@@ -36,16 +36,16 @@ function App() {
        <Reduce  />
        <Usememo  />
        <Usecallback  />
-  <Parentmemo />  */}
-              
+       <Parentmemo />  */}
+       {/* <Fetch /> */}
+       <Filter  />
        {/* <Foreach  />
        <Context.Provider value={"jishmal"}>
         <ChannelContext.Provider value={"kanichadi"}>
           <ComponentA  />
         </ChannelContext.Provider>
        </Context.Provider>  */}
-       <Usereducer  />
-       <Table />
+       {/* <Table /> */}
 
     </div>
   );
